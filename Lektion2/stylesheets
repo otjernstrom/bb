@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Om CSS</title>
+    <style>
+      h1{
+        color: blue;
+        font-size:400%;
+        margin:10px;
+        background-color:yellow;
+      }
+    </style>
+  </head>
+<body>
+  <h1>Om CSS</h1>
+  <p>Här ligger text som vi ska styla</p>
+</body>
+</html>

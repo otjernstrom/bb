@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Om CSS</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+      h1{
+        font-size:400%;
+        margin:10px;
+        background-color:yellow;
+      }
+      .ovanlig{
+        color: red;
+      }
+      #ovanlig{
+        color: blue;
+      }
+    </style>
+  </head>
+<body>
+  <h1 style="color: blue;">Om CSS</h1>
+  <p>Här ligger text som vi ska styla idag!</p>
+  <h2>En lista där trean sticker ut</h2>
+  <ul>
+    <li>Ett, vanlig</li>
+    <li>Två, vanlig</li>
+    <li id="ovanlig">Tre, ovanlig</li>
+    <li>Fyra, vanlig</li>
+    <li>Fem, vanlig</li>
+    <li>Sex, vanlig</li>
+  </ul>
+  <h2>En lista där ett, tre och fem sticker ut</h2>
+  <ul>
+    <li class="ovanlig">Ett, ovanlig</li>
+    <li>Två, vanlig</li>
+    <li class="ovanlig">Tre, ovanlig</li>
+    <li>Fyra, vanlig</li>
+    <li class="ovanlig">Fem, ovanlig</li>
+    <li>Sex, vanlig</li>
+  </ul>
+</body>
+</html>
